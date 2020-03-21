@@ -970,7 +970,12 @@ section.portfolio .portfolio-filter ul li.sel-item {
 section.portfolio .portfolio-items .item {
   margin-bottom: 30px;
 }
-
+section.portfolio .portfolio-items .item .portfolio-title {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 section.portfolio .portfolio-items .item .item-content {
   position: relative;
   overflow: hidden;
@@ -1023,7 +1028,15 @@ section.portfolio .portfolio-items .item .item-content .item-overlay h6 {
   font-weight: 800;
   letter-spacing: 1px;
 }
-
+section.portfolio
+  .portfolio-items
+  .item
+  .item-content
+  .item-overlay
+  .icons
+  .live {
+  margin-left: 15px;
+}
 section.portfolio
   .portfolio-items
   .item
